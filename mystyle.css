@@ -1,0 +1,70 @@
+body {
+    background-image: url(Grass.jfif);
+    
+    
+}
+
+#h1{
+    background-color: green;
+    color:white ;
+    font-size: 50px;
+    font-family: cursive;
+    text-align: left;
+    float: left;
+    width: 65%;
+}
+#contain {
+        
+    background-color: lightgreen;
+    width:70%;
+    margin: auto;
+    height: 90%;
+    margin-top: 20px;
+    text-align: center;
+
+}
+img{
+    border-radius: 20%;
+}
+
+
+#container {
+    background-color: darkgreen;
+    width: 20%;
+    float: left;
+    height: 70px;
+    font-size: 30px;
+    font-family:cursive;
+    text-align: center;
+
+}
+#menu {
+    float: left;
+    width:14%;
+    background-color:azure;
+    height: 60%;
+    opacity: 80%;
+}
+
+p{
+    font-family: cursive;
+    font-size: 15px;
+    color:darkorchid
+}
+a{
+    color: yellow;
+}
+a:hover{
+    background-color:darkgrey;
+}
+li a{
+    color: darkgreen;
+    margin-bottom: 60px;
+    display: block;
+    text-align: center;
+    margin-right: 30px;
+    font-size: 20px;
+}
+ul {
+    list-style-type: none;
+}
