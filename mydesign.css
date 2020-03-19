@@ -1,11 +1,10 @@
 body {
     background-image: url(page%201.jpg);
-    
-    
+      
 }
 
 #h1{
-    background-color: green;
+    background-color: forestgreen;
     color:white ;
     font-size: 50px;
     font-family: cursive;
@@ -30,35 +29,38 @@ img{
 
 
 #container {
-    background-color: darkgreen;
+    background-color: yellowgreen;
     width: 15%;
     height: 15%;
     font-size: 30px;
     font-family:cursive;
     text-align: center;
     float:left;
+    
 
 }
 #menu {
     float: left;
     width:15%;
-    background-color:azure;
+    background-color:lawngreen;
     height: 80%;
+    
+    
 }
 
 p{
     font-family: cursive;
     font-size: 15px;
-    color:darkorchid
+    color:white;
 }
 a{
-    color: yellow;
+    color: white;
 }
 a:hover{
     background-color:darkgrey;
 }
 li a{
-    color: darkgreen;
+    color: white;
     margin-bottom: 30px;
     display: block;
     text-align: center;
