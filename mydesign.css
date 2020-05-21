@@ -5,15 +5,28 @@ body {
       
 }
 
+.dropdown {
+    float: left;
+    width:15%;
+    background-color:yellowgreen;
+    height: 15%;
+    text-align: center;
+    margin:auto;
+    
+}
+
+
 #h1{
     background-color: forestgreen;
     color:white ;
-    font-size: 50px;
+    font-size: 70px;
     font-family: cursive;
     text-align: center;
     float: left;
-    width: 70%;
+    width: 70%; 
     height: 20%;
+    margin: auto;
+    
 }
 #contain {
         
@@ -23,19 +36,20 @@ body {
     height: 90%;
     margin-top: 20px;
     text-align: center;
+    
 
 }
 img{
-    border-radius: 20%;
+    float:inherit;
+    padding left: 5px;
 }
 
 #box {
     background-color: forestgreen;
     float: bottom;
-    padding-left: 10%;
-    padding-right: 10%;
+    margin: auto;
     width: 80%;
-    height: 10%
+    height: 10%;
 }
 
 
@@ -43,21 +57,12 @@ img{
     background-color: yellowgreen;
     width: 15%;
     height: 15%;
-    font-size: 30px;
-    font-family:cursive;
+    font-size: 35px;
     text-align: center;
     float:left;
-    
+    margin:auto;  
+}
 
-}
-#menu {
-    float: left;
-    width:15%;
-    background-color:yellowgreen;
-    height: 80%;
-    
-    
-}
 
 p{
     font-family: cursive;
@@ -65,19 +70,10 @@ p{
     color:white;
 }
 a{
+    text-decoration: none;
+    font-family: cursive;
     color: white;
 }
 a:hover{
-    background-color:darkgrey;
-}
-li a{
-    color: white;
-    margin-bottom: 30px;
-    display: block;
-    text-align: center;
-    margin-right: 30px;
-    font-size: 20px;
-}
-ul {
-    list-style-type: none;
+    background-color: lightgreen;
 }
