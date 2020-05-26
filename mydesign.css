@@ -29,8 +29,8 @@ body {
     
 }
 #contain {
-        
-    background-color: lightgreen;
+     
+    background-color: rgba(190,190,190,0.8);
     width:70%;
     margin: auto;
     height: 90%;
@@ -48,7 +48,7 @@ img{
     background-color: forestgreen;
     float: bottom;
     margin: auto;
-    width: 80%;
+    width: 85%;
     height: 10%;
 }
 
