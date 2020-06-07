@@ -1,3 +1,5 @@
+/* Background decoration */
+
 body {
     background-image: url(page%201.jpg);
     background-repeat: no-repeat;
@@ -17,6 +19,7 @@ body {
     
 }
 
+/* Design details of the heading / position */
 
 #h1{
     background-color: forestgreen;
@@ -30,6 +33,9 @@ body {
     margin: auto;
     
 }
+
+/* Design details and position of the main content box from div contain*/
+
 #contain {
      
     background-color: rgba(190,190,190,0.9);
@@ -40,13 +46,16 @@ body {
     text-align: center;
     padding-top: 10%;
     
-    
-
 }
+
+/* Position of the image */
+
 img{
     float:inherit;
     padding left: 5px;
 }
+
+/* Position and decoration of the box from the div in html */
 
 #box {
     background-color: forestgreen;
@@ -59,6 +68,7 @@ img{
     
 }
 
+/* Store decoration and position of the container div from html */
 
 #container {
     background-color: yellowgreen;
@@ -70,23 +80,32 @@ img{
     margin: auto;
 }
 
+/* Word decoration for text inside 'p' parts of html*/
 
 p{
     font-family: cursive;
     font-size: 15px;
     color: black;
 }
+
+/* Decoration of text inside the 'a' parts in html */
+
 a{
     text-decoration: none;
     font-family: cursive;
     color: white;
 }
+
+/* Run this section from only the 'a' parts in the box*/
+
 #box a{
     text-decoration: none;
     font-family: cursive;
     color: white;
     margin-right: 40px;
 }
+/* When the mouse hovers over the parts in 'a' */
+
 a:hover{
     background-color: lightgreen;
 }

@@ -8,6 +8,7 @@
        
     
 <style>
+    /* Seperate changes to this page that are not in the css of the other pages */
     
     p{
         
@@ -44,7 +45,7 @@
   display: inline-block;
 }
     
-/* Changes content when the dropdown menu has been clicked*/
+/* Changes content when the dropdown menu has been clicked */
 
 .dropdown-content {
   display: none;
@@ -75,7 +76,7 @@
 </head>
 <body>
 
-
+    
 <div class="dropdown">
   <button onclick="myFunction()" class="dropbtn"> Menu </button>
   <div id="myDropdown" class="dropdown-content">
@@ -90,11 +91,13 @@
 <script>
 /* When the user clicks on the button, 
 toggle between hiding and showing the dropdown content */
+    
 function myFunction() {
   document.getElementById("myDropdown").classList.toggle("show");
 }
 
-// Close the dropdown if the user clicks outside of it
+/* Close the dropdown if the user clicks outside of it */
+    
 window.onclick = function(event) {
   if (!event.target.matches('.dropbtn')) {
     var dropdowns = document.getElementsByClassName("dropdown-content");
@@ -111,6 +114,8 @@ window.onclick = function(event) {
 
 </body>
         <div id= "h1">
+            
+            
             
     <img src="Life%20of%20land%20logo" width=15% height=100%>  
             Life Of Land
@@ -136,13 +141,6 @@ window.onclick = function(event) {
             <a href="https://www.unenvironment.org/news-and-stories/speech/our-planet-our-future"> Our Future Environment - UN</a>
         </div>
         
-        <div class="loader">
-  <div class="inner one"></div>
-  <div class="inner two"></div>
-  <div class="inner three"></div>
-</div>
-        
-
-
+    
     </body>
 </html>
